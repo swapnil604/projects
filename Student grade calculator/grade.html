@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/Student grade calculator/grade.css">
+    <title>Student Grade Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <p id="head">Student Grade Calculator</p>
+        <div class="main">
+            <div class="header">
+                <p id="topic"><u>Enter marks of respective subjects below</u></p>
+            </div>
+            <div class="marks">
+                <p>English:<input type="text" class="score" id="eng" required></p>
+                <p>Physics:<input type="text" class="score" id="phy"></p>
+                <p>Chemistry:<input type="text" class="score" id="chem"></p>
+                <p>Maths:<input type="text" class="score" id="maths"></p>
+            </div>
+            <div class="info">
+                <p>Informatics:<input type="text" class="score" id="info"></p>
+            </div>
+            <div class="result">
+                <button id="btn" type="button" onclick="cal()">Calculate</button>
+                <button id="clr" type="button" onclick="del()">Clear all</button>
+            </div>
+            <div class="output">
+                <p id="Output"></p>
+            </div>
+        </div>
+    </div>
+    <script src="/Student grade calculator/grade.js"></script>
+</body>
+
+</html>
