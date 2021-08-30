@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="currency.css">
+    <title>Currency Converter</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">Currency Converter</div>
+
+        <div class="main">
+            <div class="choose-currency">
+                <div class="from">
+                    <p>Convert from:</p>
+                    <select id="first-currency">
+                        <option value="dollar1">Dollar</option>
+                        <option value="rupee1">Indian Rupee</option>
+                        <option value="pound1">Pound</option>
+                        <option value="euro1">Euro</option>
+                        <option value="yuan1">Chinese Yuan</option>
+                    </select>
+                </div>
+
+                <div class="to">
+                    <p>Convert to:</p>
+                    <select id="second-currency">
+                        <option value="rupee2">Indian Rupee</option>
+                        <option value="dollar2">Dollar</option>
+                        <option value="pound2">Pound</option>
+                        <option value="euro2">Euro</option>
+                        <option value="yuan2">Chinese Yuan</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="input">
+                <div class="input1">
+                    <input id="input1" type="text" value="">
+                </div>
+
+                <div class="input2">
+                    <p id="input2"></p>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button id="convert">Convert</button>
+                <button id="clear">Clear</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="currency.js"></script>
+</body>
+
+</html>
